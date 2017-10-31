@@ -1962,42 +1962,21 @@
     position: relative;
     margin: 0;
     background: #e70e00;
+    background-image: url("../../images/logo.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 
-    padding: 14em 0 14em 0;
-    text-align: center;
     color: #fff;
   }
 
-    #header header {
-      display: inline-block;
-      width: 75%;
-      height: 0;
-      padding-top: 30%;
-      margin: 0 auto;
-
-      background-image: url("../../images/logo.png");
-      background-size: contain;
-      background-position: center center;
-      background-repeat: no-repeat;
-    }
-
-    #header header h1 {
-      font-size: 2.25em;
-      line-height: 1.25em;
-      margin-bottom: 0;
-    }
-
-    #header header p {
-      margin-top: 1.25em;
-      font-weight: 100;
-      padding: 0;
-      font-size: 1.25em;
-      line-height: 1.5em;
-      text-align: center;
-    }
-
     #header footer {
-      padding-top: 1.5em;
+      display: block;
+      position: absolute;
+      bottom: 10%;
+      left: 0;
+      right: 0;
+      text-align: center;
     }
 
 /* Main Sections */
@@ -2129,12 +2108,6 @@
         margin-bottom: 0;
       }
 
-    /* Header */
-
-      #header {
-        padding: 12em 0 12em 0;
-      }
-
     /* Main Sections */
 
       .main > header {
@@ -2181,21 +2154,6 @@
       ul.actions {
         text-align: center;
       }
-
-    /* Header */
-
-      #header {
-        margin: 0 !important;
-        padding: 8em 2em 8em 2em;
-      }
-
-        #header header p {
-          margin-top: 1em;
-        }
-
-        #header footer {
-          padding-top: 1.25em;
-        }
 
     /* Main Sections */
 
@@ -2289,12 +2247,6 @@
         padding: 0;
         display: block;
         margin: 1em 0 1em 0;
-      }
-
-    /* Header */
-
-      #header {
-        padding: 6em 20px 6em 20px;
       }
 
     /* Main Sections */
