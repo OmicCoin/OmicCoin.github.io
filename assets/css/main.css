@@ -2005,6 +2005,13 @@
       text-align: center;
     }
 
+    .main#supporters img {
+      height: 150px;
+      width: 150px;
+      background: white;
+      border-radius: 100%;
+    }
+
     .main > .content {
       padding: 6em 0 6em 0;
     }
