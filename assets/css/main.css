@@ -1994,7 +1994,7 @@
     }
 
     .main#lead-section > div {
-      background-image: url(../../images/lattice.png);
+      background-image: url(../../images/lattice-bg.png);
       background-size: contain;
       background-position: 15% center;
       background-repeat: no-repeat;
