@@ -2298,11 +2298,11 @@
 
 /* Mobile */
 
-  @media screen and (max-width: 736px) {
-
 	#navPanel, #titleBar {
 		display: none;
 	}
+  @media screen and (max-width: 736px) {
+
     /* Nav */
     /* Basic */
 
