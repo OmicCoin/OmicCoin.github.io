@@ -2024,11 +2024,11 @@
       background-size:100% 100%;
 
     }
-    .main#supporters {
+    .main#blog {
       text-align: center;
     }
 
-    .main#supporters img {
+    .main#blog img {
       height: 150px;
       width: 150px;
       background: white;
@@ -2056,11 +2056,6 @@
 
       /* green panel */
       .main > .content.style1 {
-        background: #333;
-      }
-
-      /* black panel */
-      .main > .content.style2 {
         background: #333;
       }
 
@@ -2236,12 +2231,6 @@
 
   }
 
-#menu-icon {
-
-	visibility: hidden;
-
-}
-
 /* Nav */
 
 	#nav  {
@@ -2298,9 +2287,10 @@
 
 /* Mobile */
 
-	#navPanel, #titleBar {
-		display: none;
-	}
+  #navPanel, #titleBar {
+    display: none;
+  }
+
   @media screen and (max-width: 736px) {
 
     /* Basic */
@@ -2533,12 +2523,11 @@
 				transform: translateY(0);
 			}
 
-		/* Nav */
+	/* Nav */
 
-			#nav {
-				display: none;
-			}
-  }
+	#nav {
+		display: none;
+	}
 
 
 
